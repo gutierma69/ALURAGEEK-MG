@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "nombre": "admin",
+      "email": "admin@aluralatam.com",
+      "password": "Admin85",
+      "id": "764aff00-0fe0-44ec-a5c5-a0e6e78eff76"
+    }
+  ],
+  "products": [
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-1.png",
+      "name": "Taza Captain Phasma",
+      "price": "45.00",
+      "categorie": "Star Wars",
+      "description": "Taza de colección Star Wars figura Captain Phasma, excelente calidad",
+      "id": "48624327-b5cd-49e3-8d28-d4a52591b2a2"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-2.png",
+      "name": "Lego Darth Vader",
+      "price": "60.00",
+      "categorie": "Star Wars",
+      "description": "Figura Lego Darth Vader coleccionable",
+      "id": "c21cd583-6a54-4e44-9c2e-0bc81d0c18bb"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-3.png",
+      "name": "Figura Yoda",
+      "price": "60.00",
+      "categorie": "Star Wars",
+      "description": "Figura coleccionable Maestro Yoda",
+      "id": "84801d9c-b2de-4076-a8e8-e9841973e964"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-4.png",
+      "name": "Fig Captain Phasma",
+      "price": "90.00",
+      "categorie": "Star Wars",
+      "description": "Figura de acción coleccionable Captain Phasma",
+      "id": "3c8c2895-0814-4f7b-ae87-14eda24d52ae"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-5.png",
+      "name": "Fig Baby Yoda",
+      "price": "55.00",
+      "categorie": "Star Wars",
+      "description": "Peluche de colección Baby Yoda",
+      "id": "2914cb6f-7934-4753-b73c-0676570c2b1d"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-6.png",
+      "name": "Fig Kylo Ren",
+      "price": "75.00",
+      "categorie": "Star Wars",
+      "description": "Figura coleccionable kylo Ren",
+      "id": "74e9dc79-e8b5-4f03-a6a5-3e15aa4d44d5"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-1.png",
+      "name": "Control XboxOne",
+      "price": "40.00",
+      "categorie": "Consolas",
+      "description": "Control Inalámbrico Xbox One White",
+      "id": "94b22fb4-b3c1-4847-8a80-ed8f3071862d"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-2.png",
+      "name": "PS5",
+      "price": "750.00",
+      "categorie": "Consolas",
+      "description": "Consola Play Station 5 BlueRay Disc Support",
+      "id": "14c84c07-32cc-4fd2-b883-7ca6d42eed7d"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-3.png",
+      "name": "Nintendo Retro",
+      "price": "250.00",
+      "categorie": "Consolas",
+      "description": "Consola de videojuegos retro Nintendo",
+      "id": "087342f4-d998-4abd-b43b-c2f7a814de4b"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-4.png",
+      "name": "Controls N-Switch",
+      "price": "95.00",
+      "categorie": "Consolas",
+      "description": "Juego de JoyStick Nintendo Switch",
+      "id": "1b7e190c-6969-4833-b88d-8b1b107a5890"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-5.png",
+      "name": "Consola XboxOne",
+      "price": "700.00",
+      "categorie": "Consolas",
+      "description": "Consola Xbox One 1TB Black Edition",
+      "id": "7e9ec32d-8875-491c-b5fc-e93d07010f8a"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-6.png",
+      "name": "GameBoy Color",
+      "price": "190.00",
+      "categorie": "Consolas",
+      "description": "Consola Portátil GameBoy Color con cartuchos incluidos",
+      "id": "a2b06619-092e-4c3e-b156-be7bbb067f8d"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-1.png",
+      "name": "Playera Atari",
+      "price": "35.00",
+      "categorie": "Diversos",
+      "description": "Playera con estampado de Logo Atari Retro",
+      "id": "af7015fe-dfe5-4068-aeaa-2bf8dede184c"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-2.png",
+      "name": "Playera SNES",
+      "price": "40.00",
+      "categorie": "Diversos",
+      "description": "Playera estampada retro SNES",
+      "id": "5ae84c07-953b-4497-ae00-e0d314981b62"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-3.png",
+      "name": "Fig Sonic",
+      "price": "45.00",
+      "categorie": "Diversos",
+      "description": "Figura Coleccionable Sonic",
+      "id": "c68bd50a-3f8c-4b59-8a80-162c87d0e7d6"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-4.png",
+      "name": "Radio Alarm",
+      "price": "55.00",
+      "categorie": "Diversos",
+      "description": "Radio Reloj Despertador Edition Retro",
+      "id": "83b1dad4-b667-4fa1-bbd6-72ec04954db0"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-5.png",
+      "name": "Visor VR",
+      "price": "1200.00",
+      "categorie": "Diversos",
+      "description": "Visor de Realidad Virtual",
+      "id": "cdb9d03e-9842-4066-8cc3-9f792a9344a8"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-6.png",
+      "name": "Peluche Pikachu",
+      "price": "20.00",
+      "categorie": "Diversos",
+      "description": "Peluche Gigante de colección Pokemón",
+      "id": "ccf401ce-d500-49c2-b1b0-f78f9379695a"
+    },
+    {
+      "image": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00501099376150-2l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "name": "Baby Yoda",
+      "price": "45.00",
+      "categorie": "Star Wars",
+      "description": "Figura Coleccionable Baby Yoda",
+      "id": "ea41ed1e-0984-4ab9-95af-7b61a20ae1b1"
+    },
+    {
+      "image": "https://images.squarespace-cdn.com/content/v1/51967abae4b0fe8d0161031f/1658210849464-P0STFHIAY3IJCK12K8I1/LEGO+Atari+10306+Box+Front+-+Large.png?format=750w",
+      "name": "Lego Atari Retro",
+      "price": "175.00",
+      "categorie": "Consolas",
+      "description": "Lego Atari Retro Collection Limited Edition",
+      "id": "3a96f645-f5ec-4043-b92d-32327b5cbee1"
+    },
+    {
+      "image": "https://s3.eu-central-1.wasabisys.com/mediacloud-anime/2022/07/RFI2f5bE-IMG_6027.jpg",
+      "name": "PSP Vita",
+      "price": "380.00",
+      "categorie": "Consolas",
+      "description": "Consola Portátil Play Station Vita Limited Edition",
+      "id": "73fee071-9cde-4509-9555-843ecad87b5a"
+    },
+    {
+      "image": "https://www.8bitaesthetics.com/cdn/shop/products/yellowxl_1200x1200.jpg?v=1645286676",
+      "name": "GameBoy Color",
+      "price": "200.00",
+      "categorie": "Consolas",
+      "description": "Edición Especial Pokemón ",
+      "id": "2e3659ad-c0bc-4835-a28a-cb2305486cad"
+    },
+    {
+      "image": "https://www.timesticking.com/wp-content/uploads/2019/07/news_romainjeromepokemon_body-2016-11-04-09-06-58-635.jpg",
+      "name": "Reloj Pikachu",
+      "price": "45.00",
+      "categorie": "Diversos",
+      "description": "Reloj Colección Pokemón",
+      "id": "8a21e409-9977-4b39-bf6d-faff83764d7a"
+    },
+    {
+      "image": "https://image.spreadshirtmedia.com/image-server/v1/compositions/T347A4PA4306PT17X1Y39D1033696708W24999H7575/views/1,width=550,height=550,appearanceId=4,backgroundColor=00224C,noPt=true/playstation-shape-neon-t-shirt-femme.jpg",
+      "name": "Playera Play Station",
+      "price": "30.00",
+      "categorie": "Diversos",
+      "description": "Playera Edición Especial PS",
+      "id": "7b2031ea-531e-4136-83af-9fde6f871dd8"
+    },
+    {
+      "image": "https://shop.hasbro.com/_next/image?url=https%3A%2F%2Fwww.hasbro.com%2Fcommon%2Fproductimages%2Fes_LAM%2F56E521FA96714D3283FC7689ACD676A4%2F9049704f68c6ce4fd5652e8a3ee7919820e23ec0.jpg&w=828&q=75",
+      "name": "Fig Darth Maul",
+      "price": "95.00",
+      "categorie": "Star Wars",
+      "description": "Figura colección Darth Maul Star Wars",
+      "id": "2b0d2a67-d9e2-4d9e-97bd-3dcdbf687bdd"
+    },
+    {
+      "image": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/709807/709807.jpg",
+      "name": "Control PS5 spider",
+      "price": "150.00",
+      "categorie": "Consolas",
+      "description": "Control PS5 Special Edition Spider Man 2",
+      "id": "a80ea9be-12aa-482e-8cb8-769dd088f3c8"
+    },
+    {
+      "image": "https://www.nicekicks.com/files/2021/11/pokemon-converse-chuck-taylor-all-star-pikachu-release-date-010-750x750.jpg",
+      "name": "Tenis Pokemón",
+      "price": "250.00",
+      "categorie": "Diversos",
+      "description": "Sneakers Pokemon Special Edition 25 Anniversary ",
+      "id": "644a017e-51ff-43c1-810f-84277b13eb01"
+    },
+    {
+      "image": "https://www.mayoreodidactico.mx/wp-content/uploads/2021/06/8199-0.jpg",
+      "name": "Puzzle Star Wars",
+      "price": "30.00",
+      "categorie": "Star Wars",
+      "description": "Puzzle Star Wars Official",
+      "id": "bb3c4402-f937-4371-9cbd-3165b5bd4c2b"
+    },
+    {
+      "image": "https://despeluchados.com/cdn/shop/products/product-image-1170532213_800x.jpg?v=1575044770",
+      "name": "Peluche Charmander",
+      "price": "45.00",
+      "categorie": "Diversos",
+      "description": "Peluche Pokemón Charmander",
+      "id": "060fd7a0-d246-4a8d-a952-e3d6231b77e9"
+    },
+    {
+      "image": "https://www.passion-estampes.com/figurines/star-wars/figurine-star-wars-bb8.jpg",
+      "name": "BB-8",
+      "price": "40.00",
+      "categorie": "Star Wars",
+      "description": "Figura de colección Star Wars BB-8 ",
+      "id": "1fe0f2d6-5df1-46de-85df-8994a080c5b3"
+    }
+  ]
+}

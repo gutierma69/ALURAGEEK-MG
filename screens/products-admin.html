@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <script src="https://kit.fontawesome.com/23a046ecd9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/css/bases.css" />
+    <link rel="stylesheet" href="../assets/css/buttons.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/products.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-header.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-header-title.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-header-button.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-cards.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-icons.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-img.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-title.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-price.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-id.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-about.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-contact.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-about-logo.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-about-content.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-rodapie.css" />
+    <link rel="stylesheet" href="../assets/css/formulario.css" />
+    <link rel="stylesheet" href="../assets/css/formulario/input.css" />
+    <link rel="stylesheet" href="../assets/css/formulario/textarea.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <link rel="stylesheet" href="../assets/css/login/login-button.css" />
+    <title>Productos</title>
+    <link rel="icon" href="../assets/img/logo-icon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <div class="header__logo">
+          <a href="../index.html">
+            <img src="../assets/img/Logo.svg" alt="Logo de AluraGeek" />
+          </a>
+        </div>
+        <div class="header__searchbar">
+          <input
+            class="header__searchbar__input disabled"
+            placeholder="¿Qué deseas buscar?"
+            type="text"
+            id="searchbar"
+            data-tipo="search"
+            data-search />
+          <span class="input__message--error">Este campo no es válido</span>
+          <a class="header__search" id="btn-searchBar" href="#"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="products container">
+        <div class="products__header--add">
+          <h2 class="products__header__title">Todos los productos</h2>
+          <a href="product-add.html"
+            ><button class="button__add__product">Agregar producto</button></a
+          >
+        </div>
+        <div data-product class="products__cards"></div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer container">
+        <div class="footer__about">
+          <div class="footer__about__logo">
+            <img src="../assets/img/logo-icon.svg" alt="logo icon" />
+            <img src="../assets/img/logo-text.svg" alt="logo text" />
+          </div>
+          <div class="footer__about__content">
+            <ul class="footer__about__content__list">
+              <li class="footer__list__item"><a href="#">Quienes somos</a></li>
+              <li class="footer__list__item"><a href="#">Política de privacidad</a></li>
+              <li class="footer__list__item"><a href="#">Programa de fidelidad</a></li>
+              <li class="footer__list__item"><a href="#">Nuestras tiendas</a></li>
+              <li class="footer__list__item"><a href="#">Quiero ser franquiciado</a></li>
+              <li class="footer__list__item"><a href="#">Anúncie aquí</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__contact">
+          <form action="" class="formulario">
+            <legend class="form__label">Hable con nosotros</legend>
+            <div class="input__container">
+              <input
+                class="input"
+                type="text"
+                class="input"
+                name="nombre"
+                id="nombre"
+                placeholder="Nombre"
+                required
+                data-tipo="nombre" />
+              <label for="nombre" class="input__label">Nombre</label>
+              <span class="input__message--error">Este campo no es válido</span>
+            </div>
+            <div class="textarea__container">
+              <textarea
+                class="input__textarea"
+                name="mensaje"
+                id="mensaje"
+                placeholder="Mensaje"
+                required
+                data-tipo="message"></textarea>
+              <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
+              <span class="textarea__message--error">Este campo no es válido</span>
+            </div>
+            <button class="button--large">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+      <section class="footer__rodapie">
+        <span class="footer__rodapie--text">Desarrollado por María Gutiérrez 2024</span>
+        <div class="footer__social__icons">
+          <a
+            class="icono"
+            href="https://www.linkedin.com/in/maría-antonieta-gutiérrez-lucena-945776235/"
+            target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a class="icono" href="https://github.com/gutierma69" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../assets/js/validaciones.js"></script>
+    <script type="module" src="../controllers/product-controller.js"></script>
+    <script src="../assets/js/search2.js"></script>
+    <script src="../assets/js/search-active.js"></script>
+  </body>
+</html>

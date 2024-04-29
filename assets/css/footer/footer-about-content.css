@@ -1,0 +1,37 @@
+.footer__about__content {
+  text-align: center;
+}
+
+.footer__about__content__list {
+  padding: 0.5rem 0;
+}
+
+.footer__list__item {
+  font-weight: 500;
+  line-height: 18.78px;
+  margin: 1rem 0;
+}
+
+.footer__list__item:active {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__about__content {
+    text-align: left;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .footer__about__content {
+    text-align: left;
+    padding-right: 10rem;
+  }
+
+  .footer__list__item:hover {
+    scale: 1.1;
+    text-decoration: underline;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}

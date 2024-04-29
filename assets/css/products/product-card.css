@@ -1,0 +1,14 @@
+.product__card {
+  width: 100%;
+  min-width: 156px;
+  min-height: 249px;
+  border: thin solid var(--fuente-ceniza-claro);
+  border-radius: 20px;
+}
+
+.product__card:hover {
+  scale: calc(105%);
+  box-shadow: 5px 10px 5px var(--black-shadow);
+  border-radius: 20px;
+  transition: all 300ms ease;
+}

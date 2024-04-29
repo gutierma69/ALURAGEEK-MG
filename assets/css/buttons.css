@@ -1,0 +1,242 @@
+.header__btn--login {
+  width: 8.3125rem;
+  height: 2.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  background: transparent;
+  color: var(--fuente-azul);
+  border: thin solid var(--fuente-azul);
+  border-radius: 15px;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.header__btn--login:active {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+.header__btn--menu-admin {
+  width: 10.375rem;
+  height: 2.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--fuente-azul);
+  border: thin solid var(--fuente-azul);
+  border-radius: 15px;
+  background: transparent;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.header__btn--menu-admin:active {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+.button--short {
+  width: 118px;
+  height: 40px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: 2px solid var(--background-azul);
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button--short:active {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+.button--large {
+  width: 133px;
+  height: 40px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button--large:active {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+.button__add__product {
+  width: 150px;
+  height: 40px;
+  margin: 0.5rem 0;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button__add__product:hover {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+.add-img__button {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--fuente-azul);
+  border: thin solid var(--fuente-azul);
+  border-radius: 15px;
+  background: transparent;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.add-img__button:active {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+.add-product__button {
+  width: 100%;
+  height: 51px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  border-radius: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: rgba(42, 122, 228, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.add-product__button:active {
+  box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px var(--fuente-blanca);
+}
+
+@media screen and (min-width: 768px) {
+  .header__btn--menu-admin {
+    width: 9rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__btn--login {
+    width: 11.375rem;
+    height: 3.1875rem;
+  }
+
+  .header__btn--login:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+
+  .header__btn--menu-admin:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+
+  .button--short {
+    width: 129px;
+    height: 51px;
+  }
+
+  .button--short:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+
+  .button--large {
+    width: 144px;
+    height: 51px;
+  }
+
+  .button--large:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+
+  .button__add__product {
+    width: 163px;
+    height: 51px;
+    margin: 0.5rem 0;
+    background: var(--background-azul);
+    color: var(--fuente-blanca);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .button__add__product:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+
+  .add-img__button:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+
+  .add-product__button:hover {
+    box-shadow: inset 0 0 20px rgba(42, 122, 228, 0.5), 0 0 20px rgba(42, 122, 228, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px var(--fuente-blanca);
+  }
+}

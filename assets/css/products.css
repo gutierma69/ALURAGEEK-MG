@@ -1,0 +1,32 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 360px;
+  min-height: 35vh;
+  background: var(--background-principal);
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products {
+    padding: 1.5rem 4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .products {
+    padding: 1.5rem 8rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .products {
+    padding: 1.5rem 20rem;
+  }
+}

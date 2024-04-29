@@ -1,0 +1,22 @@
+.product__card__button {
+  width: 88px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  background: var(--background-principal);
+  color: var(--fuente-azul);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.product__card__button:active {
+  text-shadow: 1px 1px 6px var(--fuente-azul);
+}
+
+.product__card__button:hover {
+  text-shadow: 1px 1px 6px var(--fuente-azul);
+}
